@@ -33,3 +33,35 @@ To build this project from source:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/1bitVscoder/smart_billing_app.git](https://github.com/1bitVscoder/smart_billing_app.git)
+
+   Navigate to the project directory:
+
+Bash
+cd smart_billing_app
+Fetch Flutter dependencies:
+
+Bash
+flutter pub get
+Run the app on your connected device or emulator:
+
+Bash
+flutter run
+🛠️ Hardware Setup (Thermal Printing)
+To use the physical receipt printing feature:
+
+Turn on your 58mm Bluetooth Thermal Printer.
+
+Pair the printer with your Android device via the native OS Bluetooth Settings.
+
+Open the Smart Billing App and tap the Printer card on the dashboard.
+
+Select your paired printer from the list and tap Connect.
+
+Once the status light turns green, your checkout stream is physically armed!
+
+👨‍💻 About the Developer
+Soumya Ranjan Jana IoT & Systems Engineer • Computer Science Student at ITER (Siksha 'O' Anusandhan)
+
+I specialize in building real-world distributed architectures, manual sorting loops, and AI-driven workflows. This application was engineered to demonstrate the power of local hardware integrations and edge-computing principles within mobile applications.
+
+GitHub: @1bitVscoder
